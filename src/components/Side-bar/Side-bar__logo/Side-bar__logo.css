@@ -1,0 +1,13 @@
+.Side-bar__logo{
+    max-width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Side-bar__logo i {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}

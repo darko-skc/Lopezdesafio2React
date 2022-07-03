@@ -1,0 +1,7 @@
+.Side-bar__configuration {
+    width: 100%;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

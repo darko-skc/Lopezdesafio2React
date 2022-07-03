@@ -1,0 +1,21 @@
+.App {  
+  display: grid;
+  grid-template-columns: 0.21fr 3.1fr 0.75fr;
+  grid-template-rows: 0.2fr 3.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Side-bar Nav-bar Nav-bar"
+    "Side-bar Games-section Games-recomendation-section";
+}
+
+.Nav-bar { grid-area: Nav-bar; }
+
+.Side-bar { grid-area: Side-bar; }
+
+.Games-section { grid-area: Games-section; }
+
+.Games-recomendation-section { grid-area: Games-recomendation-section; }
+
+
+
