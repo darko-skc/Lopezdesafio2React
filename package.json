@@ -2,12 +2,16 @@
   "name": "e-games",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://darko-skc.github.io/Lopezdesafio2React/",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
